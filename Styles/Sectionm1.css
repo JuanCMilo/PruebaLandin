@@ -1,0 +1,76 @@
+.WEncabezado {
+    font-family: sans-serif;
+    background-color: #141414;
+    color: #000000;
+    display: grid;
+    margin: 0px;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    
+    
+    
+  }
+  
+  .ImagenEncabezado {
+    background-image: url('cantante.png');
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    grid-column: 1;   
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nameRedes {
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: auto auto;
+    
+  }
+  
+  .ImagenNameAngelcanales {
+    background-image: url('firmaangelcanales.png');
+    background-size: contain;
+    background-position: bottom;
+    width: 200px;
+    height: 100px;    
+    background-repeat: no-repeat;
+    display: grid; 
+   
+    grid-row: 1;
+    margin-left: 25px;
+      
+  }
+  
+  .social-buttons {
+    display: flex;
+    margin-right: 100px;
+    
+    
+    grid-row: 2;
+  }
+  
+  .social-buttons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px; /* Modifica el ancho de los botones según tu preferencia */
+    height: 60px; /* Modifica el alto de los botones según tu preferencia */
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .social-buttons a i {
+    color: #777777;
+    font-size: 36px; /* Modifica el tamaño de la fuente de los íconos según tu preferencia */
+  }
+  
+  .social-buttons a:hover {
+    color: #999999;
+  }
+  

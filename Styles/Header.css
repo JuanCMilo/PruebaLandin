@@ -1,0 +1,116 @@
+body {
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+  .rightsectionHeader {
+    display: none;
+  }
+  body {
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    font-family: sans-serif;
+    background-color: #ececec;
+    height:120px;
+    padding: 0 20px;
+    display: grid;
+    margin: 0px;
+    grid-template-columns: 20% 80%;
+    align-items: baseline;
+    justify-content: space-between;
+    
+  }
+  
+  .centerHeader {
+   justify-content: space-between;
+  }
+  
+  .leftsectionheader {
+    background-image: url('../Image/el_angel.png') ;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    grid-column: initial;
+    height: 110px;
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: baseline;
+    gap: 10px;
+  }
+ 
+  .buttonh {
+    background-color: #00000000;
+    border: none;
+    color: rgb(0, 0, 0);
+    
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    font-size: 18px;
+  }
+  
+  .buttonh:hover {
+    background-color: #00000000;
+    color: rgb(78, 64, 94);
+  }
+
+
+  
+@media screen and (max-width: 600px) {
+ 
+  
+  header {
+    font-family: sans-serif;
+    background-color: #ececec;
+    height:120px;
+    padding: 0 20px;
+    display: grid;
+    margin: 0px;
+    grid-template-columns: 20% 80%;
+    align-items: baseline;
+    justify-content: space-between;
+    
+  }
+  
+  .leftsectionheader {
+    background-image: url('../Image/el_angel.png') ;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    grid-column: initial;
+    height: 110px;
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: baseline;
+    gap: 10px;
+  }
+ 
+
+
+  .centerHeader {
+    display: none;
+  } 
+  
+  
+
+  .rightsectionHeader {
+    grid-column-end: span 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+
+  
